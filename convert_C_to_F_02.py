@@ -1,7 +1,7 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
+# NAME: Rob Warner
+# DATE: March 11, 2026
 # BRIEF DESCRIPTION:  
 
 
@@ -15,6 +15,21 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+Celsius=float(input ('Enter a temperature in Celsius: '))
+
+
+
+Fahrenheit= Celsius * 9/5 + 32
+
+print()
+print(f'{Celsius} Celsius is {Fahrenheit} degrees Fahrenheit')
+
+Fahrenheit=float(input ('Enter a temperature in Fahrenheit: '))
+
+
+Celsius= Fahrenheit - 32 * 5/9
+print()
+print(f'{Fahrenheit} is {Celsius} degrees Celsius')
 
 
 
@@ -91,7 +106,7 @@ Enter a temperature to convert: -40
 
 '''
 
-1. What is one lesson you learned in this lab?
+1. What is one lesson you learned in this lab? That you can code the same thing in reverse.
 
 
 
